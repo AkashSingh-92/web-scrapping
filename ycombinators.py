@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
+
 response = requests.get("https://news.ycombinator.com/")
 """if we only print response we will only get the status code i.e 200 whereas response.text gives the whole html of page"""
 # print(response.text)
